@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>B.Tech Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>document.getElementById("myDiv").style.margin = "50px 10px 20px 30px";</script>
+    <style>
+     body {
+  margin: 0;
+  font-family: 'Futura', sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+h1{text-align: left;}
+h1{color: #080808;}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 100px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+button {
+        display: inline-block; /* Make the buttons inline */
+        padding: 8px 16px; /* Add some padding for spacing */
+        background-color: #fff; /* A white button background color */
+        color: #333; /* A dark grey button text color */
+        border: 2px solid #333; /* Add a border to the buttons */
+        border-radius: 5px; /* Add some border radius for aesthetics */
+        text-decoration: none; /* Remove the underline */
+        font-weight: bold; /* Make the button text bold */
+        transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Add a smooth transition on hover */
+      }
+
+      /* Change the button styles on hover */
+      button:hover {
+        background-color: #333; /* A dark grey background color on hover */
+        color: #fff; /* A white text color on hover */
+        border-color: #fff; /* A white border color on hover */
+      }
+
+      /* Define the style for the buttons */
+      #home-button {
+        margin-left: 20px; /* Add some margin to separate the buttons */
+      }
+
+      #upload-button {
+        margin-left: 30px; 
+      }
+
+      #download-button {
+        margin-left: 10px; 
+        padding: 8px 8px; /* Add some padding for spacing */
+      }
+
+      .top-header { 
+	 
+	background-image: url(int1.png); 
+    background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: center; 
+    
+} 
+ 
+.top-header > h1 {
+    font-size: 50px;
+	color: rgb(0, 0, 0); 
+    padding: 2em 1em;
+	font-family: 'Futura', sans-serif; 
+    margin: 0;
+} 
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="#team">Team</a>
+  <a href="#contactus">Contact Us</a>
+ 
+</div>
+
+<div>  
+    <header class="top-header"> 
+		<h1>Intent Determination Model</h1>
+	</header>
+</div>
+<div class="row">
+    <div class="column">
+      <img src="Home.png" alt="Snow" style="width:49%">
+      <br>
+      <button id="home-button">Home</button>
+    </div>
+
+    <div class="column">
+      <img src="up3.png" alt="Forest" style="width:62%">
+      <br>
+      <button id="upload-button">Upload</button>
+    </div>
+    <div class="column">
+      <img src="download (1).png" alt="Mountains" style="width:47%">
+      <br>
+      <button id="download-button">Download</button>
+    </div>
+  </div>
+</body>
+</html>
